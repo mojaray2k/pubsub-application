@@ -148,7 +148,9 @@ var Subscriber = (function(){
 
 	return{
 		get: get,
-		unsubscribe: removeTopic
+		add: add,
+		subscribe: addTopic,
+		unsubscribe: removeTopic,
 	}
 })();
 
